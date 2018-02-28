@@ -25,6 +25,7 @@
 		7489C61520331E740034730D /* userProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7489C61420331E740034730D /* userProfileController.swift */; };
 		7493EF9220468FA20040C256 /* CustomAnimationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493EF9120468FA20040C256 /* CustomAnimationPresenter.swift */; };
 		7493EF942046934E0040C256 /* CustomAnimationDismisser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493EF932046934E0040C256 /* CustomAnimationDismisser.swift */; };
+		7493EF96204699080040C256 /* CommentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493EF95204699080040C256 /* CommentsController.swift */; };
 		749505D120467C64000D97A5 /* PreviewPhotoContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749505D020467C64000D97A5 /* PreviewPhotoContainerView.swift */; };
 		74A5FF082034110400AB78E3 /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A5FF072034110400AB78E3 /* UserProfileHeader.swift */; };
 		74B4C13E203AB8200002864D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B4C13D203AB8200002864D /* Post.swift */; };
@@ -62,6 +63,7 @@
 		7489C61420331E740034730D /* userProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userProfileController.swift; sourceTree = "<group>"; };
 		7493EF9120468FA20040C256 /* CustomAnimationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationPresenter.swift; sourceTree = "<group>"; };
 		7493EF932046934E0040C256 /* CustomAnimationDismisser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationDismisser.swift; sourceTree = "<group>"; };
+		7493EF95204699080040C256 /* CommentsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsController.swift; sourceTree = "<group>"; };
 		749505D020467C64000D97A5 /* PreviewPhotoContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPhotoContainerView.swift; sourceTree = "<group>"; };
 		74A5FF072034110400AB78E3 /* UserProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileHeader.swift; sourceTree = "<group>"; };
 		74B4C13D203AB8200002864D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 			children = (
 				74BC906F203C08F600EDDEF9 /* HomeController.swift */,
 				74BC9071203C0B6E00EDDEF9 /* HomePostCell.swift */,
+				7493EF95204699080040C256 /* CommentsController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 				7410BE182036E67A00851717 /* PhotoSelectorHeader.swift in Sources */,
 				74434963203EB9C400A063CD /* FirebaseUtils.swift in Sources */,
 				7410BE142035ECAC00851717 /* PhotoSelectorController.swift in Sources */,
+				7493EF96204699080040C256 /* CommentsController.swift in Sources */,
 				7443495F203E991900A063CD /* UserSearchController.swift in Sources */,
 				74BC9070203C08F600EDDEF9 /* HomeController.swift in Sources */,
 			);
