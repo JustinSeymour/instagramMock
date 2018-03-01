@@ -31,6 +31,8 @@
 		74B4C13E203AB8200002864D /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B4C13D203AB8200002864D /* Post.swift */; };
 		74B4C140203ABA140002864D /* UserProfilePhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B4C13F203ABA130002864D /* UserProfilePhotoCell.swift */; };
 		74B4C142203ACC550002864D /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B4C141203ACC550002864D /* CustomImageView.swift */; };
+		74B6C1DC2047E4E100C586A5 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B6C1DB2047E4E100C586A5 /* CommentCell.swift */; };
+		74B6C1DE2047EDD900C586A5 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74B6C1DD2047EDD900C586A5 /* Comment.swift */; };
 		74BC9070203C08F600EDDEF9 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BC906F203C08F600EDDEF9 /* HomeController.swift */; };
 		74BC9072203C0B6E00EDDEF9 /* HomePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74BC9071203C0B6E00EDDEF9 /* HomePostCell.swift */; };
 		74CCC0342045908800AFDC5C /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74CCC0332045908800AFDC5C /* CameraController.swift */; };
@@ -69,6 +71,8 @@
 		74B4C13D203AB8200002864D /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		74B4C13F203ABA130002864D /* UserProfilePhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfilePhotoCell.swift; sourceTree = "<group>"; };
 		74B4C141203ACC550002864D /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		74B6C1DB2047E4E100C586A5 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		74B6C1DD2047EDD900C586A5 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		74BC906F203C08F600EDDEF9 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		74BC9071203C0B6E00EDDEF9 /* HomePostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePostCell.swift; sourceTree = "<group>"; };
 		74CCC0332045908800AFDC5C /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
@@ -182,6 +186,7 @@
 			children = (
 				74B4C13D203AB8200002864D /* Post.swift */,
 				744229E1203D654100DB34C2 /* User.swift */,
+				74B6C1DD2047EDD900C586A5 /* Comment.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 				74BC906F203C08F600EDDEF9 /* HomeController.swift */,
 				74BC9071203C0B6E00EDDEF9 /* HomePostCell.swift */,
 				7493EF95204699080040C256 /* CommentsController.swift */,
+				74B6C1DB2047E4E100C586A5 /* CommentCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -361,6 +367,7 @@
 				74CCC0342045908800AFDC5C /* CameraController.swift in Sources */,
 				74A5FF082034110400AB78E3 /* UserProfileHeader.swift in Sources */,
 				7489C61320331B950034730D /* MainTabBarController.swift in Sources */,
+				74B6C1DC2047E4E100C586A5 /* CommentCell.swift in Sources */,
 				74B4C13E203AB8200002864D /* Post.swift in Sources */,
 				744CC7622032DB5800B5B5DB /* AppDelegate.swift in Sources */,
 				7493EF942046934E0040C256 /* CustomAnimationDismisser.swift in Sources */,
@@ -372,6 +379,7 @@
 				7410BE142035ECAC00851717 /* PhotoSelectorController.swift in Sources */,
 				7493EF96204699080040C256 /* CommentsController.swift in Sources */,
 				7443495F203E991900A063CD /* UserSearchController.swift in Sources */,
+				74B6C1DE2047EDD900C586A5 /* Comment.swift in Sources */,
 				74BC9070203C08F600EDDEF9 /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

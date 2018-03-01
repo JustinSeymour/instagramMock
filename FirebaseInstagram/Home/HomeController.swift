@@ -106,7 +106,8 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
                 let imageUrl = dictionary["imageUrl"] as? String ?? ""
                 print("Image URL: \(imageUrl)")
                 
-                let post = Post(user: user, dictionary: dictionary)
+                var post = Post(user: user, dictionary: dictionary)
+                post.id = key
                 print(post.imageUrl)
                 self.posts.append(post)
             })
@@ -125,6 +126,7 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
         print(post.caption)
         hidesBottomBarWhenPushed = true
         let commentsController = CommentsController(collectionViewLayout: UICollectionViewFlowLayout())
+        commentsController.post = post
         navigationController?.pushViewController(commentsController, animated: true)
         hidesBottomBarWhenPushed = false
     }
