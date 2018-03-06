@@ -164,7 +164,6 @@ class HomeController: UICollectionViewController, UICollectionViewDelegateFlowLa
             self.collectionView?.reloadItems(at: [indexPath])
         }
     }
-    
 }
 
 
