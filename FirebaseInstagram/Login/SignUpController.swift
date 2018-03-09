@@ -143,8 +143,10 @@ class SignUpController: UIViewController, UIImagePickerControllerDelegate, UINav
                 print("Succesfully uploaded profile image: ", profileImageUrl)
                 
                 guard let uid = user?.uid else { return }
+                guard let fcmToken = Messaging.messaging().fcmToken else { return }
                 
-                let dictionaryValues = ["username": userName, "profileImageUrl": profileImageUrl]
+                
+                let dictionaryValues = ["username": userName, "profileImageUrl": profileImageUrl, "fcmToken": fcmToken]
                 let values = [uid: dictionaryValues]
                 
                 Database.database().reference().child("users").updateChildValues(values, withCompletionBlock: { (err, ref) in
