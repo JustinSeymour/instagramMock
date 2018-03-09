@@ -48,6 +48,7 @@
 		7410BE132035ECAC00851717 /* PhotoSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorController.swift; sourceTree = "<group>"; };
 		7410BE152036E18200851717 /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
 		7410BE172036E67A00851717 /* PhotoSelectorHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorHeader.swift; sourceTree = "<group>"; };
+		742D74F3205140E200D2449A /* FirebaseInstagram.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirebaseInstagram.entitlements; sourceTree = "<group>"; };
 		744229E1203D654100DB34C2 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7443495E203E991900A063CD /* UserSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchController.swift; sourceTree = "<group>"; };
 		74434960203EA2FE00A063CD /* UserSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchCell.swift; sourceTree = "<group>"; };
@@ -142,6 +143,7 @@
 		744CC7602032DB5800B5B5DB /* FirebaseInstagram */ = {
 			isa = PBXGroup;
 			children = (
+				742D74F3205140E200D2449A /* FirebaseInstagram.entitlements */,
 				74CCC0322045907400AFDC5C /* Camera */,
 				7443495D203E98F500A063CD /* Search */,
 				74BC906E203C08E200EDDEF9 /* Home */,
@@ -266,6 +268,11 @@
 					744CC75D2032DB5800B5B5DB = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -518,6 +525,7 @@
 			baseConfigurationReference = 1EFF029B4549E88B449E37F1 /* Pods-FirebaseInstagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FirebaseInstagram/FirebaseInstagram.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DYV3T9T6JV;
 				INFOPLIST_FILE = FirebaseInstagram/Info.plist;
@@ -534,6 +542,7 @@
 			baseConfigurationReference = 3C48DC5BC901161A3B188202 /* Pods-FirebaseInstagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FirebaseInstagram/FirebaseInstagram.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DYV3T9T6JV;
 				INFOPLIST_FILE = FirebaseInstagram/Info.plist;
